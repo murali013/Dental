@@ -1,0 +1,37 @@
+.welcome-card ion-img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+.title, div {
+  color: #372677;
+}
+
+.home-container {  
+  .prd-container { 
+    color: #372677;
+    padding: 10px;
+    ion-img {
+      border: 1px solid #372677;
+    }   
+    p {
+      font-weight: 500;
+    } 
+  }
+
+  .product {
+    text-align: center;
+    .price {
+        color: #3cdb12;
+        text-decoration: underline;
+    }
+
+    .prd-name {
+        text-transform: uppercase;
+    }
+  }
+
+}
+
+
+
